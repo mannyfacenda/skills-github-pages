@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Epoxy Flooring | Professional Coatings</title>
+    <style>
+        :root {
+            --primary-cyan: #00bcd4;
+            --dark-bg: #1a1a1a;
+            --accent-yellow: #ffeb3b;
+            --text-white: #ffffff;
+            --card-bg: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-white);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background: #000;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--primary-cyan);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .phone-link {
+            color: var(--primary-cyan);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 5%;
+            text-align: center;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c3e50 100%);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .hero span {
+            color: var(--primary-cyan);
+            display: block;
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+
+        /* Free Estimate Badge */
+        .badge {
+            display: inline-block;
+            background: var(--accent-yellow);
+            color: #000;
+            padding: 10px 30px;
+            font-weight: 900;
+            border-radius: 50px;
+            margin: 20px 0;
+            transform: rotate(-2deg);
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+        }
+
+        /* Content Sections */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 5%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-cyan);
+        }
+
+        h2 {
+            color: var(--primary-cyan);
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-cyan);
+            font-weight: bold;
+        }
+
+        /* CTA Footer */
+        footer {
+            background: var(--primary-cyan);
+            color: #1a1a1a;
+            text-align: center;
+            padding: 60px 5%;
+        }
+
+        .footer-btn {
+            display: inline-block;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-weight: 900; font-size: 1.5rem;">ULTIMATE EPOXY</div>
+        <a href="tel:2393387560" class="phone-link">(239) 338-7560</a>
+    </nav>
+
+    <header class="hero">
+        <h1>ULTIMATE EPOXY FLOORING</h1>
+        <span>High-Performance Protective Coatings</span>
+        <div class="badge">FREE ESTIMATES</div>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <section class="card">
+                <h2>Premium Finishes</h2>
+                <ul>
+                    <li><strong>Showroom Shine:</strong> High-gloss surfaces for garages or shops[cite: 3].</li>
+                    <li><strong>Extreme Durability:</strong> Resistant to oil, chemicals, and impacts[cite: 3].</li>
+                    <li><strong>Industrial Strength:</strong> Multi-layer systems designed to last[cite: 3].</li>
+                    <li><strong>Custom Colors:</strong> Wide range of flakes and metallics[cite: 3].</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Applications</h2>
+                <ul>
+                    <li>Residential Garages & Basements[cite: 3].</li>
+                    <li>Retail Showrooms & Cafes[cite: 3].</li>
+                    <li>Workshops & Warehouses[cite: 3].</li>
+                    <li>Commercial Kitchens[cite: 3].</li>
+                    <li>Patios & Pool Decks[cite: 3].</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Ready to transform your concrete?</h3>
+        <p>Call the experts today for a professional consultation[cite: 3].</p>
+        <a href="tel:2393387560" class="footer-btn">(239) 338-7560</a>
+        <p style="margin-top: 20px; font-weight: bold;">WWW.ULTIMATEEPOXYFLOORS.COM</p>
+    </footer>
+
+</body>
+</html>
